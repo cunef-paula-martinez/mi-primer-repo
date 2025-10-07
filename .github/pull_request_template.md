@@ -3,17 +3,26 @@
 Por favor, incluye un resumen de los cambios realizados y la motivación detrás de ellos.  
 Indica si este PR soluciona algún issue o agrega una nueva funcionalidad.
 
+Describe brevemente los cambios realizados y la razón detrás de ellos.
+
+
 Closes # (número del issue, si aplica)
 
 ---
 
 ## 🧪 Tipo de cambio
 
+
 Marca con una “x” lo que aplique:
 
 - [ ] 🐛 Bug fix (corrección de un error)
 - [ ] ✨ Nueva funcionalidad
 - [ ] 🧹 Refactorización de código
+
+- [ ] 🐛 Bug fix
+- [ ] ✨ Nueva funcionalidad
+- [ ] 🧹 Refactorización
+
 - [ ] 🧪 Pruebas
 - [ ] 📝 Documentación
 - [ ] 🔧 Configuración / DevOps
@@ -21,6 +30,7 @@ Marca con una “x” lo que aplique:
 ---
 
 ## ✅ Checklist
+
 
 Antes de solicitar revisión, asegúrate de cumplir lo siguiente:
 
@@ -41,4 +51,14 @@ Incluye capturas de pantalla, logs o resultados relevantes si ayudan a entender 
 ## 🧠 Notas adicionales
 
 Agrega cualquier comentario o información adicional que ayude a los revisores.
+
+- [ ] El código sigue las convenciones del proyecto.
+- [ ] Las pruebas locales se ejecutan correctamente.
+- [ ] La documentación está actualizada.
+- [ ] Se agregaron pruebas necesarias.
+
+---
+
+## 📸 Evidencia
+Adjunta capturas o logs relevantes.
 

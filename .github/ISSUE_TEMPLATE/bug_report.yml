@@ -1,0 +1,69 @@
+name: 🐞 Reporte de bug
+description: Informa de un error o comportamiento inesperado en el proyecto
+title: "[BUG]: "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por ayudarnos a mejorar el proyecto 🙌  
+        Por favor, completa la siguiente información para que podamos reproducir y solucionar el problema.
+
+  - type: input
+    id: summary
+    attributes:
+      label: 🧩 Descripción breve del bug
+      description: Resume en una o dos frases el problema que estás experimentando.
+      placeholder: No se carga la página de inicio al iniciar sesión.
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🪜 Pasos para reproducir el error
+      description: Explica paso a paso cómo reproducir el fallo.
+      placeholder: |
+        1. Ir a la página de inicio
+        2. Hacer clic en “Iniciar sesión”
+        3. Introducir credenciales válidas
+        4. Se muestra un error 500 en consola
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Comportamiento esperado
+      description: Explica qué debería ocurrir si el sistema funcionara correctamente.
+      placeholder: La página debería redirigir al panel de usuario.
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Comportamiento actual
+      description: Describe lo que ocurre realmente.
+      placeholder: La aplicación muestra una página en blanco y un error 500 en la consola.
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: ⚠️ Severidad del bug
+      description: Indica el impacto del error.
+      options:
+        - Crítico (rompe la aplicación)
+        - Alto (afecta funciones importantes)
+        - Medio (afecta parcialmente)
+        - Bajo (impacto menor)
+
+  - type: input
+    id: environment
+    attributes:
+      label: 💻 Entorno
+      description: Indica en qué entorno ocurre el error.
+      placeholder: Windows 11, Chrome 129, Python 3.12
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 📎 Información adicional
+      description: Agrega capturas, logs o cualquier detalle que ayude a entender el problema.
+      placeholder: Incluye aquí capturas de pantalla o trazas del error.

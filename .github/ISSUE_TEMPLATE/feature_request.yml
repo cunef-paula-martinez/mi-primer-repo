@@ -1,0 +1,50 @@
+name: ✨ Solicitud de nueva funcionalidad
+description: Proponer una mejora o nueva característica para el proyecto
+title: "[FEATURE]: "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tu interés en mejorar este proyecto!  
+        Por favor, proporciona la siguiente información para evaluar tu propuesta.
+
+  - type: input
+    id: summary
+    attributes:
+      label: 🧩 Resumen de la funcionalidad
+      description: Describe brevemente la nueva característica que te gustaría añadir.
+      placeholder: Añadir un modo oscuro a la interfaz...
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 💡 Motivación
+      description: Explica por qué esta funcionalidad sería útil y qué problema resolvería.
+      placeholder: |
+        Facilitar la lectura nocturna o mejorar la accesibilidad visual.
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 🚀 Propuesta de solución
+      description: Describe cómo debería implementarse o comportarse la nueva funcionalidad.
+      placeholder: |
+        Agregar un interruptor de modo oscuro en la esquina superior derecha.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔁 Alternativas consideradas
+      description: Si has pensado en otras soluciones, descríbelas aquí.
+      placeholder: |
+        Podría detectarse automáticamente según la configuración del sistema operativo.
+
+  - type: input
+    id: additional
+    attributes:
+      label: 📎 Información adicional
+      description: Agrega enlaces, capturas o ejemplos que ayuden a entender mejor la propuesta.
+      placeholder: Ejemplo: enlace a otro proyecto que ya tenga esta funcionalidad
